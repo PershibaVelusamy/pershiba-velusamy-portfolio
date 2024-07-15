@@ -1,0 +1,84 @@
+.navBar {
+    height: 60px;
+     width: 100%;
+    background-color: #080808;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    .subWrapper {
+        display: flex;
+        //  justify-content: space-around;
+        // flex-direction: column;
+        .dotColor {
+            color: #0aff9d;
+            font-weight: 900;
+            line-height: 1;
+            font-size: 2.2rem;
+        }
+        .h1Color {
+            font-size: 36px;
+        }
+    
+
+        .spanWrapper{
+             display: flex;
+             justify-content: space-between;
+            margin-left: 20px;
+            .iconArrangement {
+                // margin: 10px;
+                // display: flex;
+                // align-items: center;
+    
+                // position: sticky;
+                //  top: 0;
+                display: flex;
+                gap: 10px;
+                padding-top: 10px;
+                margin-left: 20px;
+                align-items: center;
+                //padding-top: 10px;
+    
+                // font-weight: 700;
+            }
+            .iconColor {
+                color: #7e7e82;
+            }
+            .iconColor:hover {
+                color: #0aff9d;
+            }
+            .myResumeButton {
+                outline: none;
+                border: none;
+                cursor: pointer;
+                border: 1px solid #0aff9d;
+                background: transparent;
+                color:#0aff9d;
+                font-size: 18px;
+                border-radius: 4px;
+                align-self: center;
+            text-align: center;
+                transition: color 0.2s;
+               // height: 40px;
+                // align-items: end;
+                position: fixed;
+                 right: 0;
+                 margin-right: 20px;
+                 padding: 8px 15px;
+
+                 margin-top: 20px;
+            
+            }
+            .myResumeButton:hover{
+                background-color:#0aff9d;
+                color: #080808;
+            }
+        }
+    }
+}
