@@ -11,6 +11,7 @@
     .titleSpace {
         display: flex;
         flex-direction: column;
+      
         // gap: 20px;
         .rotateclass {
             writing-mode: vertical-rl;
@@ -25,11 +26,19 @@
             width: 60px;
             height: 100px;
             cursor: pointer;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
            
         }
         .rotateclass:hover{
             opacity: 1;
             border-right: 1px solid #0aff9d;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
         }
         .addSelect {
             opacity: 1;

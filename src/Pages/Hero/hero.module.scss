@@ -1,4 +1,58 @@
-.heroWrapper{
-    background-color: #080808;
-    height: 100vh;
+.heroWrapper {
+     background-color: #080808;
+    color: white;
+
+    .subWrapper {
+        padding: 72px 24px;
+        .heroTitle {
+            font-size: 45px;
+            text-align: left;
+            position: relative;
+            width: fit-content;
+            overflow: hidden;
+            margin-bottom: 14px;
+        }
+        .greenDot {
+            color: #0aff9d;
+            font-weight: 900;
+            line-height: 1;
+            font-size: 45px;
+        }
+        .h2Title {
+            font-size: 40px;
+            text-align: left;
+            position: relative;
+            width: fit-content;
+            max-width: 75%;
+            overflow: hidden;
+            margin-top: 14px;
+            font-weight: 200;
+        }
+        .paraTitle {
+            font-size: 20px;
+            text-align: left;
+            position: relative;
+            max-width: 75%;
+            // min-width: 200px;
+            width: fit-content;
+            overflow: hidden;
+            margin-top: 14px;
+            font-weight: 200;
+        }
+        .ContactButton {
+            color: #080808;
+            background-color: #0aff9d;
+            outline: none;
+            border-radius: 4px;
+            // position: relative;
+            z-index: 20;
+            overflow: hidden;
+            transition: opacity 0.2s;
+            cursor: pointer;
+            padding: 8px 15px;
+            border: 1px solid #0aff9d;
+            font-size: 20px;
+            float: left;
+        }
+    }
 }

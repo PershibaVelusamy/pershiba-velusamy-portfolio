@@ -1,0 +1,63 @@
+.contactWarpper {
+    background-color: #080808;
+     color: white;
+
+    .subWrapper {
+        padding: 72px 20%;
+        padding-bottom: 27% ;
+        .heroTitle {
+            font-size: 60px;
+
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+        .greenDot {
+            color: #0aff9d;
+            font-weight: 900;
+            line-height: 1;
+            font-size: 45px;
+        }
+
+        .paraTitle {
+            text-align: center;
+            font-weight: 200;
+            margin: auto;
+            font-size: 20px;
+            margin-bottom: 24px;
+        }
+        .mailCenter {
+            display: flex;
+
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+            justify-content: center;
+
+            width: -moz-fit-content;
+            width: fit-content;
+
+            margin: auto;
+            transition: color 0.25s;
+            margin-top: 30px;
+        }
+        .mailCenter:hover {
+            // background-color:#0aff9d;
+            color: #0aff9d;
+            cursor: pointer;
+        }
+        .addGreentext {
+            color: #0aff9d;
+            cursor: pointer;
+        }
+        .addGreentext:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .mailIcon {
+            margin-right: 5px;
+        }
+        .mailID {
+            margin-top: -9px;
+        }
+    }
+}
